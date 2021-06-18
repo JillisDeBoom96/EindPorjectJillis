@@ -1,23 +1,25 @@
 import React from 'react';
-import "./Aside.css"
-import Button from "../button/Button";
+import "./Aside.css";
+import MenuButton from "../buttons/MenuButton";
 
 function Aside({}) {
     return (
         <div className="asideContainer">
-            <Button
+
+            <MenuButton
                 target="/profile-page"
                 text="Profile"
             />
-            <Button
+            <MenuButton
                 target="/upload-page"
                 text="Drop Demo"
             />
-            <Button
+            <MenuButton
                 target="/Demo's"
                 text="Demo's"
             />
-            <Button
+
+            <MenuButton
                 target="/"
                 text="HomePage"
             />

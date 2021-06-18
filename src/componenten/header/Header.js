@@ -1,16 +1,16 @@
 import React from 'react';
-import "./Header.css"
-import Button from "../button/Button";
+import "./Header.css";
+import MenuButton from "../buttons/MenuButton";
 
 function Header({}) {
     return (
         <div className="headerContainer">
             <nav>
-                <Button
+                <MenuButton
                     target="/login-page"
                     text="Login"
                 />
-                <Button
+                <MenuButton
                     target="/contact-page"
                     text="Contact"
                 />

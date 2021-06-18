@@ -1,11 +1,11 @@
 import React from 'react';
-import "./Footer.css"
-import Button from "../button/Button";
+import "./Footer.css";
+import MenuButton from "../buttons/MenuButton";
 
 function Footer({}) {
     return (
         <div className="footerContainer">
-            <Button
+            <MenuButton
                 target="/"
                 text={"Log out"}
             />

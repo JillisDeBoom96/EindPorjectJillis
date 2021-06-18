@@ -9,16 +9,14 @@ import {BrowserRouter as Router, Route} from 'react-router-dom';
 import HomePage from "../Pages/HomePage";
 import LoginPage from "../Pages/LoginPage";
 import ProfilePage from "../Pages/ProfilePage";
-import SignUp from "../Pages/SignUp";
-import UploadPage from "../Pages/SignUp";
+import SignUpPage from "../Pages/SignUpPage";
+import UploadPage from "../Pages/SignUpPage";
 import ContactPage from "../Pages/ContactPage";
 
 
 function App() {
     return (
-        // <div>
-        //     <ContactPage />
-        // </div>
+
         <Router>
             <div className="container">
 
@@ -36,7 +34,7 @@ function App() {
                         <ProfilePage/>
                     </Route>
                     <Route path="/sign-up">
-                        <SignUp/>
+                        <SignUpPage/>
                     </Route>
                     <Route path="/upload-page">
                         <UploadPage/>

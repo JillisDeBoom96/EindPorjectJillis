@@ -1,8 +1,8 @@
 import React from 'react';
 import {useHistory} from "react-router-dom";
-import "./Button.css";
+import "./SignUpButton.css";
 
-function Button({target, text}) {
+function SignUpButton({target, text}) {
     const history = useHistory();
 
     function handleClick() {
@@ -11,7 +11,7 @@ function Button({target, text}) {
 
     return (
         <article>
-            <button
+            <button className="signUpButton"
                 type="button"
                 onClick = {handleClick}
             >{text}
@@ -23,7 +23,4 @@ function Button({target, text}) {
     )
 }
 
-
-
-
-export default Button;
+export default SignUpButton;

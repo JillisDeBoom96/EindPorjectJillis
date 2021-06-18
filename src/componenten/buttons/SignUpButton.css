@@ -1,19 +1,14 @@
-Button {
+.signUpButton {
     background-color: transparent;
     color: white;
     border: transparent;
     padding-left: 15px;
     padding-bottom: 5px;
-    font-weight: bold;
+    margin-bottom: 15px;
 }
 
-Button:hover {
+.signUpButton:hover {
     text-decoration: underline;
     cursor: pointer;
-}
-
-nav{
-    display: flex;
-    justify-content: flex-end;
-    margin: 25px 50px;
+    color: deepskyblue;
 }
