@@ -1,0 +1,14 @@
+.submit-button {
+    background-color: black;
+    color: white;
+    border: solid black;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.submit-button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

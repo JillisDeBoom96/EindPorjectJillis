@@ -11,12 +11,11 @@ function LoginButton({target, text}) {
 
     return (
         <article>
-            <button
+            <button className="login-button"
                 type="button"
                 onClick = {handleClick}
             >{text}
             </button>
-
 
 
         </article>

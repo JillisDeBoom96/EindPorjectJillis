@@ -1,0 +1,26 @@
+.formProfile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15%;
+}
+
+.fieldsetProfile{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: rgb(61, 61, 61);
+}
+
+.textarea-profile {
+    border-radius: 10px;
+}
+
+.label-profile{
+    color: white;
+    font-weight: bold;
+    padding-bottom: 5px;
+}

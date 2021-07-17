@@ -1,19 +1,8 @@
-legend {
+.contactPage {
     color: white;
-    font-weight: bold;
-    text-align: center;
 }
 
-label {
-    color: white;
-    font-weight: bold;
-}
-
-input {
-    margin-bottom: 20px;
-}
-
-fieldset{
+.fieldsetContact {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -23,12 +12,14 @@ fieldset{
     background-color: rgb(61, 61, 61);
 }
 
-.formLogin {
+.formContact {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 25%;
+    padding-top: 15%;
 }
 
-
+.label-contact {
+    padding-top: 10px;
+}
 

@@ -1,0 +1,45 @@
+legend {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.login-label {
+    color: white;
+    font-weight: bold;
+}
+
+.checkboxLabel{
+    color: white;
+}
+
+.inputMargin {
+    margin-bottom: 20px;
+}
+
+.fieldsetLogin{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: rgb(61, 61, 61);
+}
+
+
+.formLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15%;
+}
+
+.checkboxLabel {
+    font-size: 11px;
+}
+
+#sign-in {
+    padding-top: 10px;
+}
+
