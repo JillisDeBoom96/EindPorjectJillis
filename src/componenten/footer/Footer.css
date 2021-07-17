@@ -1,0 +1,6 @@
+
+.footerContainer {
+    grid-row-start:3;
+    grid-column-start: 1;
+    color: rgb(20, 20, 20);
+}

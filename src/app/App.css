@@ -1,0 +1,68 @@
+
+header {
+    width: 100%;
+}
+
+main {
+    display: flex;
+    width: auto;
+    border: lime;
+}
+
+h2 {
+    color: white;
+    margin: 0;
+}
+.containerBody {
+    display: flex;
+    flex-direction: row;
+}
+
+.asideContainer{
+    width: auto;
+}
+
+.image{
+    display: flex;
+    flex-direction: column;
+    justify-items: end;
+    height: auto;
+    width: 100%;
+}
+
+div.container {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 100px auto 0px 346px;
+    grid-template-rows: 65px auto 65px;
+    grid-template-areas:
+    "aside header header header"
+    "aside main main image"
+    "aside footer footer footer"
+;
+}
+
+switch {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    background: black;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+main {
+    background: black;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-left: 10px;
+    margin-right: 100px;
+}
+
+.image {
+    grid-area: image;
+    background: black;
+}
+
+body {
+    background: RGB(20,20,20);
+}

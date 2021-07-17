@@ -1,0 +1,15 @@
+.signUpButton {
+    background-color: transparent;
+    color: white;
+    border: transparent;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    padding-top: 20px;
+}
+
+.signUpButton:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: deepskyblue;
+}

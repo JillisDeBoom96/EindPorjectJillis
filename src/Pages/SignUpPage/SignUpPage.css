@@ -1,0 +1,27 @@
+.fieldsetSignUp {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    background-color: rgb(20,20,20);
+}
+
+.signUpPage {
+    padding: 25px;
+}
+
+.label-signup {
+    color: white;
+    font-size: smaller;
+    padding-top: 15px;
+}
+
+
+.signUpPage {
+    display: flex;
+
+}
+
+input {
+    max-width: 225px;
+}

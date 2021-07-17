@@ -1,0 +1,13 @@
+.SignInButton {
+    background-color: White;
+    color: white;
+    border: solid White 1px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.SignInButton:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

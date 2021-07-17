@@ -1,0 +1,5 @@
+.headerContainer{
+    grid-column-start: 4;
+    grid-row-start: 1;
+    background: rgb(20, 20, 20);
+}
