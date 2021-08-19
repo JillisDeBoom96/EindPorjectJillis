@@ -1,6 +1,6 @@
 import React from 'react';
 import './ContactPage.css';
-import SubmitButton from "../componenten/buttons/SubmitButton";
+import SubmitButton from "../../componenten/buttons/Submit/SubmitButton";
 import {useHistory} from "react-router-dom";
 
 

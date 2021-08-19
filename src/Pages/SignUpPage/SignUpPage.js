@@ -1,7 +1,7 @@
 import React from 'react';
 import "./SignUpPage.css";
-import Checkbox from "../componenten/buttons/Checkbox";
-import SignInButton from "../componenten/buttons/SignInButton";
+import Checkbox from "../../componenten/buttons/Checkbox";
+import SignInButton from "../../componenten/buttons/SignIn/SignInButton";
 import {useHistory} from "react-router-dom";
 
 

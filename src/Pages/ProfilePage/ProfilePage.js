@@ -1,6 +1,6 @@
 import React from 'react';
 import "./ProfilePage.css";
-import ProfileButton from "../componenten/buttons/ProfileButton";
+import ProfileButton from "../../componenten/buttons/Profile/ProfileButton";
 
 function ProfilePage({}) {
     return (

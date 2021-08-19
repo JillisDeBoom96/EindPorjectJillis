@@ -1,9 +1,11 @@
 import React from 'react';
 import "./LoginPage.css";
-import SignUpButton from "../componenten/buttons/SignUpButton";
-import LoginButton from "../componenten/buttons/LoginButton";
-import Checkbox from "../componenten/buttons/Checkbox";
-
+// import SignUpButton from "/componenten/buttons/SignUp/SignUpButton";
+// import LoginButton from "/componenten/buttons/Login/LoginButton"
+// import Checkbox from "/componenten/buttons/Checkbox";
+import SignUpButton from "../../componenten/buttons/SignUp/SignUpButton";
+import LoginButton from "../../componenten/buttons/Login/LoginButton";
+import Checkbox from "../../componenten/buttons/Checkbox";
 
 function LoginPage({}) {
     return (

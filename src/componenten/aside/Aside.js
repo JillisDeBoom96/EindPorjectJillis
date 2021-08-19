@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Aside.css";
-import MenuButton from "../buttons/MenuButton";
+import MenuButton from "../buttons/Menu/MenuButton";
 
 function Aside({}) {
     return (

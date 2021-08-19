@@ -6,12 +6,13 @@ import Footer from "../componenten/footer/Footer";
 import donDiablo from "../assets/Don-Diablo.png";
 import hexagon from "../assets/Hex.png";
 import {BrowserRouter as Router, Route} from 'react-router-dom';
-import HomePage from "../Pages/HomePage";
-import LoginPage from "../Pages/LoginPage";
-import ProfilePage from "../Pages/ProfilePage";
-import SignUpPage from "../Pages/SignUpPage";
-import UploadPage from "../Pages/SignUpPage";
-import ContactPage from "../Pages/ContactPage";
+import HomePage from "../Pages/HomePage/HomePage";
+import LoginPage from "../Pages/LoginPage/LoginPage";
+import ProfilePage from "../Pages/ProfilePage/ProfilePage";
+import SignUpPage from "../Pages/SignUpPage/SignUpPage";
+import UploadPage from "../Pages/UploadPage/UploadPage";
+import ContactPage from "../Pages/ContactPage/ContactPage";
+
 
 
 function App() {
